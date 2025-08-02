@@ -1,12 +1,21 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    allowedHosts: ['otmpyc-ip-148-103-249-156.tunnelmole.net']
+    port: 5173,
+    strictPort: true,
+    cors: true,
+    headers: {
+      'Access-Control-Allow-Origin': '*'
+    },
+    // 👇 Esta función permite cualquier subdominio de tunnelmole.net
+    allowedHosts: [
+      (hostname) => {
+        return typeof hostname === 'string' && hostname.endsWith('.tunnelmole.net')
+      }
+    ]
   }
 })
-

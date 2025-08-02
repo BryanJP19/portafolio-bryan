@@ -2,21 +2,21 @@ import '../styles/projects.css'
 
 const projects = [
   {
-    title: 'Portafolio React',
-    description: 'Sitio web personal desarrollado con React, Vite y animaciones AOS.',
-    github: 'https://github.com/BryanJP19',
+    title: 'Fenix Tattos',
+    description: 'Sitio web para un estudio de tatuajes, desarrollado con React y Tailwind CSS.',
+    github: 'https://github.com/BryanJP19/Proyecto-Fenix-Tattos',
     demo: '#'
   },
   {
-    title: 'Lista de Tareas',
-    description: 'App simple para gestionar tareas usando localStorage.',
-    github: 'https://github.com/BryanJP19',
+    title: 'Nomina de Empleados',
+    description: 'Aplicación de consola para la gestión de nómina de empleados, desarrollada con React y Tailwind CSS.',
+    github: 'https://github.com/BryanJP19/Proyecto-nomina/tree/master/Proyecto%20nomina',
     demo: '#'
   },
   {
-    title: 'Visor de API',
-    description: 'Proyecto que consume una API pública con Axios y muestra datos.',
-    github: 'https://github.com/BryanJP19',
+    title: 'EntoursRD',
+    description: 'Aplicación web para una agencia de viajes, desarrollada con React y Tailwind CSS.',
+    github: 'https://github.com/BryanJP19/EntoursRD',
     demo: '#'
   }
 ]
