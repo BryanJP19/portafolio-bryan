@@ -11,7 +11,7 @@ export default defineConfig({
     headers: {
       'Access-Control-Allow-Origin': '*'
     },
-    // 👇 Esta función permite cualquier subdominio de tunnelmole.net
+    // Esta función permite cualquier subdominio de tunnelmole.net
     allowedHosts: [
       (hostname) => {
         return typeof hostname === 'string' && hostname.endsWith('.tunnelmole.net')
