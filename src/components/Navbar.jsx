@@ -14,7 +14,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="navbar-container">
         <Link to="/" className="logo" onClick={closeMenu}>
-          DevPortfolio
+          DevPortafolio
         </Link>
 
         <div className="menu-icon" onClick={toggleMenu}>
