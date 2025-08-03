@@ -9,13 +9,13 @@ const projects = [
   },
   {
     title: 'Nomina de Empleados',
-    description: 'Aplicación de consola para la gestión de nómina de empleados, desarrollada con React y Tailwind CSS.',
+    description: 'Aplicación de consola para la gestión de nómina de empleados, desarrollada con C#.',
     github: 'https://github.com/BryanJP19/Proyecto-nomina/tree/master/Proyecto%20nomina',
     demo: '#'
   },
   {
     title: 'EntoursRD',
-    description: 'Aplicación web para una agencia de viajes, desarrollada con React y Tailwind CSS.',
+    description: 'Aplicación web para una agencia de viajes, desarrollada con HTML, CSS y JavaScript.',
     github: 'https://github.com/BryanJP19/EntoursRD',
     demo: '#'
   }
