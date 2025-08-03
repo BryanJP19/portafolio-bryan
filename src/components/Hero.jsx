@@ -9,8 +9,8 @@ export default function Hero() {
         <p>Desarrollador web enfocado en crear experiencias digitales modernas y funcionales.</p>
 
         <div className="hero-buttons">
-          <a href="/contact" className="btn-primary">Contáctame</a>
-          <a href="/projects" className="btn-secondary">Ver proyectos</a>
+          <Link to="/contact" className="btn-primary">Contáctame</Link>
+          <Link to="/projects" className="btn-secondary">Ver proyectos</Link>
         </div>
 
         <div className="hero-social">
