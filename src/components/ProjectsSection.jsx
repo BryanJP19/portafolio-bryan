@@ -3,7 +3,7 @@ import '../styles/projects.css'
 const projects = [
   {
     title: 'Fenix Tattos',
-    description: 'Sitio web para un estudio de tatuajes, desarrollado con React y Tailwind CSS.',
+    description: 'Sitio web para un estudio de tatuajes, desarrollado con HTML, CSS y JavaScript.',
     github: 'https://github.com/BryanJP19/Proyecto-Fenix-Tattos',
     demo: '#'
   },
